@@ -11,6 +11,7 @@
     margin: 3.75px 0;
     object-fit: cover;
     background-position: center;
+    display: block;
 }
 
 .profile__info {
@@ -30,7 +31,6 @@ font-weight: 500;
 font-size: 42px;
 line-height: 1.1;
 margin: 0;
-    max-width: 373px;
 text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -45,8 +45,9 @@ font-size: 18px;
 line-height: 1.2;
 color: #FFF;
 margin: 7px auto auto 0;
-
-
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
 }
 
 .profile__edit-button {
@@ -91,8 +92,10 @@ margin: 7px auto auto 0;
     .profile__info {
         display: flex;
         flex-wrap: wrap;
+        max-width: 320px;
         justify-content: center;
         margin: 22px auto;
+        max-width: 320px;
     }
 
     .profile__title {
@@ -100,7 +103,6 @@ margin: 7px auto auto 0;
         font-size: 22px;
         font-family: 'Inter', Arial, sans-serif;
         font-weight: 500;
-        max-width: 320px;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
