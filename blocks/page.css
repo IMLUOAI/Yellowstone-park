@@ -1,7 +1,7 @@
 .page {
   max-width: 1280px;
   font-family: "inter", Arial, sans-serif;
-  background-color: #000;
+  background-color: #0d3044;
   color: #fff;
   box-sizing: border-box;
   margin: 0 auto;
@@ -27,7 +27,7 @@ text-rendering: optimizeLegibility;
 
 }
 
-@media screen and (max-width: 1280px) { 
+@media screen and (min-width: 320px) and (max-width: 768px) { 
   .page__section {
      max-width: calc(100% - 40px);
   }

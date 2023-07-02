@@ -107,19 +107,20 @@ text-overflow: ellipsis;
     .profile__info {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        max-width: 320px;
         margin: 26.25px auto 0;
     }
 
     .profile__title {
         font-size: 22px;
         max-width: 196px;
+        margin: 0 0 0 62px;
     }
 
     .profile__edit-button {
         width: 18px;
         height: 18px;
-        margin: 0 10px;
+        margin: 0 auto 0 10px;
     }
 
     .profile__description {
